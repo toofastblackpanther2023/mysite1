@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>シューティングゲーム</title>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- for SmartPhone -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0 user-scalable=no">
+
+  <!-- for iPhone -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" sizes="57x57" href="icon_57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="icon_72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="icon_114.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icon_180.png" />
+
+</head>
+
+<body style="background-color:#000; text-align:center;">
+    <section class="answers">
+      <div class="answer_a">
+        <div class="target_a" id="wrong1">
+        </div>
+        <div class="answer_a_content_last">
+          AAAAAAAAAAA
+        </div>
+        <img src="./image/BossEnemy0.png" alt="" width="100" height="100">
+      </div>
+      <div class="answer_b">
+        <div class="target_b" id="correct">
+        </div>
+        <div class="answer_b_content_last">
+          BBBBBBBBBBB
+        </div>
+        <img src="./image/BossEnemy1.png" alt="" width="100" height="100">
+      </div>
+      <div class="answer_c">
+        <div class="target_c" id="wrong2">
+        </div>
+        <div class="answer_c_content_last">
+          CCCCCCCCCCC
+        </div>
+        <img src="./image/BossEnemy2.png" alt="" width="100" height="100">
+      </div>
+    </section>
+
+
+
+  <canvas id="canvas" style="position:absolute; top:0; right:0; bottom:0; left:0; margin:auto;"></canvas>
+
+  <!-- WWS ゲームシステム プログラム -->
+  <script src="WWS.js"></script>
+ 
+  <!-- ゲームプログラム -->
+  <script src="stg6.js"></script>
+
+
+  <noscript>JavaScriptをONにして起動して下さい</noscript>
+</body>
+
+</html>

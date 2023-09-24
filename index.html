@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_first.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <ul class="menu">
+      <li><a href="#" class="active" data-id="home">ようこそ</a></li>
+      <li><a href="#" data-id="about">概要</a></li>
+      <li><a href="#" data-id="action">操作の方法</a></li>
+      <li><a href="#" data-id="start">スタート画面</a></li>
+    </ul>
+    <section class="explanation active" id="home">
+      <div id="game_name"><img src="image/cooltext2.png" alt="" width="500">
+      </div>
+      <div>
+        <h1>理解度テストに参加していただき、ありがとうございます。</h1>
+        <h2>始める前に『概要』、『操作の方法』、『スタート画面』をクリックして、<br>
+          内容を確認してください！</h2>
+      </div>
+    </section>
+    <section class="explanation" id="about">
+      <div>
+        <article>
+          <br>本日の『補修費の予算作成』について、どの程度理解できたか、テストをします。<br><br>問題は全部で５問です。１問ごとにステージがあり、問題は上部に表示されます。<br><br>解答を『赤』、『青』、『黄』から選択し、『同じ色』の敵ボスを撃ち落としてください。<br><br>『正解の敵ボスを撃ち落とす』とそのステージは『クリア』です。『不正解の敵ボスを撃ち落とす』または『６０秒経過』すると自爆し、そのステージは『GAME OVER』です。『GAME OVER』しても次のステージに進めます。
+        </article>
+      </div>
+      <div class="ex">
+        <p>例えば、ここ選択するなら、右図の赤ボスを撃ち落とす</p><img src="image/BossEnemy0.png" alt="">
+      </div>
+      <div class="ex">
+        <p>例えば、ここ選択するなら、右図の青ボスを撃ち落とす</p><img src="image/BossEnemy1.png" alt="">
+      </div>
+      <div class="ex">
+        <p>例えば、ここ選択するなら、右図の黄ボスを撃ち落とす</p><img src="image/BossEnemy2.png" alt="">
+      </div>
+      <h3 class="credit">Include credit to (MillionthVector)</h3>
+    </section>
+    <section class="explanation" id="action">
+      <h1>ゲーム開始後、画面の切り替わり時、<br>３秒間はキー操作を無効にしてるよ！</h1>
+      <div class="ope"><img src="image/キーボード スペース.png" alt="">
+        <p>『次に進む』、『弾を発射』は『スペースキー』を押して！</p>
+      </div>
+      <div class="ope"><img src="image/キーボード A.png" alt="">
+        <p>『弾を自動発射モード』にするときは『Ａ』を押して！</p>
+      </div>
+      <div class="ope"><img src="image/キーボードtenkey.png" alt="">
+        <p>自機の動きは『方向キー』を押して！</p>
+      </div>
+    </section>
+    <section class="explanation" id="start">
+      <h2>問１～問４は真面目な問題です。<br><br>問５(最終問題）は『２分間』耐えられたら『クリア』で、『どれも正解』だから、いろいろ撃ってみてください。<br><br>それでは、いよいよ出撃の時間です。健闘を祈る！</h2>
+
+      <a href="stg.html" class="gotopage">
+        <p>問題ページへ</p>
+      </a>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
